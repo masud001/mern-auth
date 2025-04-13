@@ -1,5 +1,5 @@
-node_modules  # Ignores the node_modules directory
-dist/          # Ignores the dist directory (if applicable)
-.env           # Ignores the .env file
-*.log           # Ignores all files with a .log extension
-text.txt        # Ignores the specific file named text.txt
+node_modules
+dist/          
+.env           
+*.log           
+text.txt        
