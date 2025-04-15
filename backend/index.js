@@ -16,6 +16,5 @@ app.use("/api/auth", authRoutes);
 // start the server
 app.listen(PORT, async () => {
   await connectDb();
-  console.log(" Database connected :", process.env.MONGO_URI);
   console.log(` Server is running on port ${PORT}`);
 });

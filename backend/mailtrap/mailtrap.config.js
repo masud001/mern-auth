@@ -6,10 +6,6 @@ const TOKEN = process.env.MAILTRAP_TOKEN;
 const SENDER_EMAIL = process.env.MAILTRAP_SENDER_EMAIL;
 const RECIPIENT_EMAIL = process.env.MAILTRAP_RECIPIENT_EMAIL;
 
-console.log("MAILTRAP_TOKEN:", TOKEN);
-console.log("MAILTRAP_SENDER_EMAIL:", SENDER_EMAIL);
-console.log("MAILTRAP_RECIPIENT_EMAIL:", RECIPIENT_EMAIL);
-
 const client = new MailtrapClient({
   token: TOKEN,
 });
